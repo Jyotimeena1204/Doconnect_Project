@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Starting DoConnect Interaction Service on port 8083..."
+cd /app/backend-java/interaction-service
+java -jar target/interaction-service-1.0.0.jar
